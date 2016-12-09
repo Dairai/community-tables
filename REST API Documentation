@@ -15,7 +15,7 @@ GET /rest/emails.json
 Retrieves a list of all emails (for test validation, need to eventually secure this behind /Admin login
 
 Add email address:
-POST /rest/emails.json
+POST /rest/emails.json 
 Expects a string body consisting of an email address (without any extra formatting)
 Returns a JSON representation of the email, or an error message.
 Error conditions include: Email already exists, invalid email format.
